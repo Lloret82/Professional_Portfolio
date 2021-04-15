@@ -2,6 +2,8 @@
 
 body {
   font-family: "Gochi Hand", cursive;
+  background-image: linear-gradient(to right, grey, black);
+  color: white;
 }
 
 .masthead {
@@ -25,6 +27,7 @@ Resources .container-fluid,
   padding: 100px 0px;
   -webkit-perspective: 1000;
   perspective: 1000;
+  background-image: linear-gradient(to right, white, grey);
 }
 
 .profile-card-2 {
@@ -37,6 +40,8 @@ Resources .container-fluid,
   margin: 10px auto;
   cursor: pointer;
   border-radius: 10px;
+  background-image: linear-gradient( white, grey);
+
 }
 
 .profile-card-2 img {
@@ -323,5 +328,27 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
   }
+
+.cb{
+  display: flex;
+  
+}
+
+.container-skills{
+  display: block;
+  
+}
+
+.side-img{
+  height: 500px;
+  width: 200px;
+}
+@media screen and (max-width: 600px){
+  .skills-mobile{
+    display: none;
+  }
+  
+}
+
 
  
