@@ -347,6 +347,32 @@ body {
 .sk-t{
   margin-right: 15px;
 }
+
+a:visited{
+  color: white;
+}
+
+.linkedin {
+  /*
+    All of the base styles have
+    moved to the “CSS” tab above.
+  */
+  transition: transform 250ms;
+}
+
+.linkedin:hover {
+  transform: translateY(-10px);
+}
+
+.progress-indicator{
+  color: black;
+}
+
+
+.skill-border{
+  border: 5px solid gray;
+}
+
 @media screen and (max-width: 600px){
   .skills-mobile{
     display: none;
@@ -368,6 +394,8 @@ body {
     animation: typing 3.5s steps(80, end), blink-caret 0.5s step-end infinite;
     font-size: 10px;
   }
+
+ 
   
   /* The typing effect */
   @keyframes typing {
