@@ -24,7 +24,7 @@ I am a graduate student in Full Stack Developer at University of Manchester. Pre
 
 ## Links
 
-* [Code Repository](https://github.com/Lloret82/Personal_Portfolio)
+* [Code Repository](https://github.com/Lloret82/Professional_Portfolio)
 * [Live website](https://lloret82.github.io/Professional_Portfolio/)
 
 
